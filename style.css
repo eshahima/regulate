@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+:root {
+    --chiron: 'Chiron GoRound TC', sans-serif;
+    --purple: #a882ab;
+    --blue: #5aaabb;
+    --green: #60a067;
+    --yellow: #ccaa6a;
+    --red: #be6040;
+}
+
+body {
+    background-color: var(--off-white);
+    font-family: var(--chiron);
+}
+
+nav {
+    margin-top: 30px;
+    word-spacing: 0px;
+    border-bottom: 3px solid var(--blue);
+    display: flex;
+    align-items: flex-end;
+}
+
+button {
+    font-family: var(--chiron);
+    font-size: 20px;
+    padding-inline: 10px;
+    color: grey;
+    background-color: white;
+    border: 3px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+button:hover {
+    color: var(--purple);
+    border: 3px solid var(--blue);
+    border-bottom: 3px solid white;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    bottom: -3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap:20px;
+}
+
+h2 {
+    font-size: 40px;
+    background: linear-gradient(to right, var(--blue), var(--purple));
+    background-clip: text;
+    color: transparent;
+}
